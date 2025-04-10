@@ -1,0 +1,36 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de bases de datos locales
+# *.sqlite3
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración personal
+*.env
+*.local
+*.bak
+
+# Archivos de migraciones opcionalmente (si no querés trackearlos)
+# Pero se recomienda incluirlos si trabajás en equipo
+# */migrations/__pycache__/
+# */migrations/*.pyc
+
+# Archivos de Django relacionados con media y static
+/media/
+/staticfiles/
+
+# Configuraciones del editor
+.vscode/
+.idea/
