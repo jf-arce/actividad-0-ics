@@ -8,7 +8,7 @@ __pycache__/
 *$py.class
 
 # Archivos de bases de datos locales
-# *.sqlite3
+*.sqlite3
 
 # Archivos temporales del sistema operativo
 .DS_Store
